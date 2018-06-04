@@ -1,0 +1,50 @@
+{
+    "author": "Cooper Dalrymple",
+    "dependencies": {
+        "pebble-clay": "^1.0.4",
+        "pebble-fctx": "^1.5.0"
+    },
+    "keywords": [],
+    "name": "pulsar",
+    "pebble": {
+        "displayName": "Pulsar",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColor",
+            "ForegroundColor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu-icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "data/Pulsar.ffont",
+                    "name": "FFONT_PULSAR",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "4748ad9c-8135-40f0-888e-fd593cf06837",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
